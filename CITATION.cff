@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - family-names: "Just"
+    given-names: "Joshua Roger Joseph"
+    affiliation: "Independent Researcher"
+    orcid: ""  # Add your ORCID if you have one
+  - given-names: "Gemini"
+    affiliation: "AI Assistant"
+title: "Aligned By Physics: Verifiable AI Alignment Through Computational Constraints"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXX  # You'll get this after upload
+date-released: 2025-01-30
+url: "https://github.com/yourusername/aligned-by-physics"  # Optional
+repository-code: "https://github.com/yourusername/aligned-by-physics"
+license: "CC-BY-4.0"
+keywords:
+  - "AI Safety"
+  - "Adversarial Behavior"
+  - "Nash Equilibrium"
+  - "Alignment by Physics"
+  - "AI Alignment"
+  - "Mechanism Design"
