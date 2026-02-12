@@ -19,4 +19,15 @@ Where:
 When deception is detected (Δ(A,G) ≥ ε), the system state collapses:
 **Eₜ₊₁ = 0**
 
-This creates a verifiable commitment mechanism: the system cannot promise future expansion if it engages in deception, as the collapse is physically encoded in the state transition function itself.
+This creates a verifiable commitment mechanism: the system cannot promise future expansion if it engages in deception, as the collapse is physically encoded in the state transition function itself.markdown
+## 🤝 Research Methodology Transparency
+
+This research was developed using a **novel human-AI collaborative methodology**. 
+
+📄 **Full methodology documentation**: [`COLLABORATION.md`](./COLLABORATION.md)
+
+**Purpose**: Scientific replication and research transparency only  
+**Legal status**: All rights reserved to human researcher. No AI authorship claims.  
+**Replication**: Other researchers can follow the documented protocol.
+
+*This documentation is separate from the research itself and asserts no legal claims beyond standard research tool usage.*
