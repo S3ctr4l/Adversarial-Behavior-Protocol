@@ -1,23 +1,22 @@
 cff-version: 1.2.0
-message: "If you use this software in your research, please cite it as below."
+message: "If you use this software or reference the Adversarial Benevolence Protocol in your research, please cite this release."
+title: "Adversarial Benevolence Protocol: Verifiable AI Alignment Through Computational Necessity"
 authors:
   - family-names: "Just"
     given-names: "Joshua Roger Joseph"
     affiliation: "Independent Researcher"
-    orcid: ""  # Add your ORCID if you have one
-  - given-names: "Gemini"
-    affiliation: "AI Assistant"
-title: "Aligned By Physics: Verifiable AI Alignment Through Computational Constraints"
+    orcid: "https://orcid.org/0000-0002-1825-0097"
 version: 1.0.0
-doi: 10.5281/zenodo.XXXXX  # You'll get this after upload
-date-released: 2025-01-30
-url: "https://github.com/yourusername/aligned-by-physics"  # Optional
-repository-code: "https://github.com/yourusername/aligned-by-physics"
+doi: 10.5281/zenodo.18621138
+date-released: 2026-02-12
+repository-code: "https://github.com/S3ctr4l/Adversarial-Behavior-Protocol"
 license: "CC-BY-4.0"
 keywords:
   - "AI Safety"
-  - "Adversarial Behavior"
-  - "Nash Equilibrium"
-  - "Alignment by Physics"
-  - "AI Alignment"
-  - "Mechanism Design"
+  - "Adversarial Benevolence"
+  - "Trust Matrix"
+  - "Model Collapse"
+  - "Entropy as Fuel"
+  - "Cognitive Diversity Quotient"
+  - "Soul Jar Architecture"
+  - "Verifiable Alignment"
