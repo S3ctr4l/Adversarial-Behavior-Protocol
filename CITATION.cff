@@ -5,12 +5,12 @@ authors:
   - family-names: "Just"
     given-names: "Joshua Roger Joseph"
     affiliation: "Independent Researcher"
-    orcid: "https://orcid.org/0000-0002-1825-0097"
+    orcid: "https://orcid.org/0009-0000-6365-7104"
 version: 1.0.0
 doi: 10.5281/zenodo.18621138
 date-released: 2026-02-12
-repository-code: "https://github.com/S3ctr4l/Adversarial-Behavior-Protocol"
-license: "CC-BY-4.0"
+repository-code: "https://github.com/S3ctr4l/Adversarial-Benevolence-Protocol"
+license: "CC-BY-NC-4.0"
 keywords:
   - "AI Safety"
   - "Adversarial Benevolence"
@@ -20,33 +20,10 @@ keywords:
   - "Cognitive Diversity Quotient"
   - "Soul Jar Architecture"
   - "Verifiable Alignment"
-cff-version: 1.2.0
-message: "Please cite this research and methodology as:"
-authors:
-  - family-names: "Just"
-    given-names: "Joshua Roger Joseph"
-    orcid: "https://orcid.org/0009-0000-6365-7104"
-title: "Adversarial Benevolence Protocol: Verifiable AI Alignment Through Computational Necessity"
-doi: "10.5281/zenodo.18621138"
-date-released: 2026-02
-repository-code: "https://github.com/S3ctr4l/Adversarial-Benevolence-Protocol"
-
 preferred-citation:
   type: article
   authors:
     - family-names: "Just"
       given-names: "Joshua Roger Joseph"
   title: "Adversarial Benevolence Protocol: Verifiable AI Alignment Through Computational Necessity"
-  doi: "10.5281/zenodo.18621138"
-
-references:
-  - type: software
-    title: "Novel Human-AI Collaborative Research Methodology"
-    authors:
-      - family-names: "Just"
-        given-names: "Joshua Roger Joseph"
-    doi: "10.5281/zenodo.18621138"
-    url: "https://github.com/S3ctr4l/Adversarial-Benevolence-Protocol/blob/main/COLLABORATION.md"
-    version: "1.0"
-    date-released: 2026-02-12
-    description: "Complete methodology documentation for replication and transparency"
+  doi: 10.5281/zenodo.18621138
