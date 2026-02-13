@@ -25,4 +25,4 @@ We welcome contributions from researchers, engineers, and enthusiasts.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under CC BY 4.0.
+By contributing, you agree that your contributions will be licensed under CC BY-NC 4.0.

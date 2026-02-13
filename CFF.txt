@@ -1,12 +1,6 @@
-
----
-
-#### `CITATION.cff`
-
-```yaml
 cff-version: 1.2.0
 title: "Adversarial Benevolence: A Hierarchical Agent Architecture for AI Safety Through Entropy Dependency"
-message: "If you use this framework, please cite our arXiv paper."
+message: "If you use this framework, please cite our Zenodo paper."
 type: article
 authors:
   - family-names: Just
@@ -15,7 +9,7 @@ authors:
 date-released: 2026-02-12
 doi: 10.48550/arXiv.2502.XXXXX
 repository-code: "https://github.com/S3ctr4l/Adversarial-Benevolence-Protocol"
-license: CC-BY-4.0
+license: "CC-BY-NC-4.0"
 references:
   - type: software
     title: "Gemini (Google DeepMind)"

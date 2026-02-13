@@ -103,7 +103,7 @@ The human researcher must:
 - No special access, API privileges, or authorization claimed
 
 **5.3 Licensing**
-This methodology documentation is released under CC BY 4.0. The research content (paper, formal specifications) retains all rights reserved by the human researcher.
+This methodology documentation is released under **CC BY‑NC 4.0** (Creative Commons Attribution‑NonCommercial 4.0 International). The research content (paper, formal specifications) retains all rights reserved by the human researcher.
 
 ---
 
