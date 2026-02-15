@@ -35,7 +35,7 @@ scale, and regardless of which version (v1.0 or v2.0) you obtained.
 
 Methods in this software are covered by a pending US Utility Patent.
 **The CC BY-NC 4.0 copyright license does NOT grant patent rights.**
-**The prior CC BY 4.0 license on v1.0 also did NOT grant patent rights.**
+v1.0 also did NOT grant patent rights.**
 See the PATENTS file. A Commercial License covers both copyright and
 patent rights.
 
