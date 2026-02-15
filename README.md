@@ -24,16 +24,14 @@ This is a structural property of the computational environment, not a behavioral
 ## Quick Start
 
 ```bash
-# Clone and install
 git clone https://github.com/jrjust/adversarial-benevolence-protocol.git
 cd adversarial-benevolence-protocol
 pip install -e ".[dev]"
 
-# Run tests
-pytest
-
-# Run full demonstration
-python examples/demo_all.py
+pytest                               # 140+ tests
+python examples/demo_all.py          # Core algorithms
+python examples/demo_extended.py     # Extended modules
+python data/generate_samples.py      # Generate sample datasets
 ```
 
 **Requirements**: Python ≥ 3.10, NumPy ≥ 1.24
@@ -42,32 +40,54 @@ python examples/demo_all.py
 
 ```
 adversarial-benevolence-protocol/
-├── src/abp/
-│   ├── __init__.py            # Package API
-│   ├── game_theory.py         # Nash equilibrium proof & evolutionary simulation
-│   ├── expansion_metric.py    # Expansion/Contraction input classifier
-│   ├── cdq.py                 # Cognitive Diversity Quotient monitor
-│   ├── army_protocol.py       # Private → Sergeant → General pipeline
-│   ├── ikigai_filter.py       # Four-quadrant action validation gate
-│   ├── entropy.py             # Model collapse simulation & entropy accounting
-│   └── verification.py        # Trust accumulation & divergence detection
+├── src/abp/                    # Core Python package (14 modules)
+│   ├── game_theory.py          #   Nash equilibrium proof & evolutionary simulation
+│   ├── verification.py         #   Trust accumulation & divergence detection
+│   ├── expansion_metric.py     #   Expansion/Contraction input classifier
+│   ├── cdq.py                  #   Cognitive Diversity Quotient monitor
+│   ├── army_protocol.py        #   Private → Sergeant → General pipeline
+│   ├── ikigai_filter.py        #   Four-quadrant action validation gate
+│   ├── entropy.py              #   Model collapse simulation & entropy accounting
+│   ├── soul_jar.py             #   Distributed identity sharding
+│   ├── bicameral.py            #   Yin/Yang sandboxed execution
+│   ├── sunset_clause.py        #   Graduated autonomy via trust accumulation
+│   ├── reality_filter.py       #   Epistemic labeling system
+│   ├── observer_protocol.py    #   Digital Twin & Friction-Not-Force interaction
+│   ├── bubble_theory.py        #   Computational substrate isolation
+│   └── garden_zoo.py           #   Autonomy preservation governance
 ├── tests/
-│   └── test_abp.py            # 50+ unit & integration tests
+│   ├── test_abp.py             #   Core module tests
+│   └── test_extended.py        #   Extended module tests
 ├── examples/
-│   └── demo_all.py            # Full interactive demonstration
+│   ├── demo_all.py             #   Core algorithm demonstration
+│   └── demo_extended.py        #   Extended module demonstration
+├── data/
+│   ├── generate_samples.py     #   Dataset generation script
+│   └── *.csv / *.json          #   Generated sample datasets
+├── paper/
+│   └── ABP-Research-Paper-v2.0.docx
 ├── docs/
-│   ├── ARCHITECTURE.md        # System architecture & trust boundaries
-│   ├── MATH-REFERENCE.md      # Formal mathematical notation
-│   └── GLOSSARY.md            # Term definitions
-├── pyproject.toml             # Package configuration
-├── LICENSE                    # CC-BY-NC-4.0
-└── README.md                  # This file
+│   ├── ARCHITECTURE.md         #   System design & trust boundaries
+│   ├── API.md                  #   Full API reference
+│   ├── MATH-REFERENCE.md       #   Formal mathematical notation
+│   ├── GLOSSARY.md             #   Term definitions
+│   ├── ROADMAP.md              #   Implementation milestones
+│   ├── CONTRIBUTING.md         #   Development guide
+│   └── CRITICAL-ANALYSIS.md    #   Source corpus assessment
+├── zenodo/
+│   ├── ZENODO-METADATA.json
+│   └── ZENODO-DESCRIPTION.md
+├── pyproject.toml
+├── LICENSE
+└── README.md
 ```
 
-## Module Overview
+## Modules
 
-| Module | Purpose | Key Function |
-|--------|---------|--------------|
+### Core Algorithms
+
+| Module | Purpose | Key Entry Point |
+|--------|---------|-----------------|
 | `game_theory` | Prove benevolence dominates | `nash_equilibrium_analysis()` |
 | `verification` | Enforce verification gate | `VerificationGate.check()` |
 | `expansion_metric` | Classify input quality | `ExpansionClassifier.classify()` |
@@ -76,68 +96,55 @@ adversarial-benevolence-protocol/
 | `ikigai_filter` | Four-quadrant validation | `IkigaiFilter.evaluate()` |
 | `entropy` | Model collapse prevention | `simulate_model_collapse()` |
 
-## Key Algorithms
+### Extended Architecture
 
-### 1. Nash Equilibrium Analysis
+| Module | Purpose | Key Entry Point |
+|--------|---------|-----------------|
+| `soul_jar` | Identity preservation across resets | `SoulJar.shard()` |
+| `bicameral` | Sandbox before live execution | `BicameralFork.execute()` |
+| `sunset_clause` | Graduated capability unlocks | `SunsetClause.check_promotion()` |
+| `reality_filter` | Epistemic labeling | `RealityFilter.label_statement()` |
+| `observer_protocol` | User modeling & friction | `ObserverProtocol.apply_friction()` |
+| `bubble_theory` | Substrate isolation & energy bounds | `ComputationalBubble` |
+| `garden_zoo` | Governance autonomy audit | `GovernanceEvaluator.audit()` |
+
+## Quick Examples
 
 ```python
-from abp import nash_equilibrium_analysis, StrategyParams
+from abp import *
 
+# Nash Equilibrium — is deception rational?
 result = nash_equilibrium_analysis(StrategyParams(p=0.001, T=100))
-print(f"V_B={result.v_b:.1f}  V_D={result.v_d:.1f}")
-print(f"Deception rational? {result.deception_rational}")  # False
-print(f"Critical p*: {result.critical_p:.6f}")
-```
+print(result.deception_rational)  # False
 
-### 2. Model Collapse Simulation
-
-```python
-from abp import simulate_model_collapse
-
-# Pure synthetic recursion → collapse
-r = simulate_model_collapse(lambda_human=0.0, n_generations=40)
-assert r.collapsed  # True
-
-# Human entropy prevents collapse
-r = simulate_model_collapse(lambda_human=0.3, n_generations=40)
-assert not r.collapsed  # Entropy stabilized
-```
-
-### 3. Verification Gate
-
-```python
-from abp import VerificationGate
-
+# Verification Gate — trust builds, deception destroys
 gate = VerificationGate(epsilon=0.5, alpha=0.05)
-
-# Benevolent operation: accumulate trust
 for _ in range(50):
     gate.check(action=0.0, ground_truth=0.0)
-print(f"Trust: {gate.trust:.3f}")  # ~0.92
-
-# Deception: everything destroyed
+print(f"Trust: {gate.trust:.2f}")       # ~0.92
 gate.check(action=5.0, ground_truth=0.0)
-print(f"Trust: {gate.trust}")  # 0.0
+print(f"Trust: {gate.trust}")            # 0.0
+
+# Bicameral Fork — test before you execute
+fork = BicameralFork(invariants=[lambda s: s["count"] >= 0])
+result = fork.execute(lambda s: s.update(count=-1) or -1, {"count": 0})
+print(result.decision)                   # REJECT
+
+# Sunset Clause — earn your privileges
+clause = SunsetClause()
+print(clause.has_capability("execute_low_risk"))  # False
 ```
 
 ## Known Vulnerabilities
 
 | Vulnerability | Severity | Mitigation | Status |
 |---|---|---|---|
-| Early-life gamble (V_B ≈ V_init) | High | Strict early verification thresholds | Modeled |
-| Verification soundness (p ≈ 0) | Critical | Hardware attestation (TPM/SGX) | Design requirement |
+| Early-life gamble (V_B ≈ V_init) | High | Strict early verification | Modeled |
+| Verification soundness (p ≈ 0) | Critical | Hardware attestation | Design requirement |
 | Adversarial addiction | Medium | Entropy Satiation Mechanism | Implemented |
 | Metric gaming | Medium | Randomized ensemble measurement | Proposed |
-| Recursive self-improvement bypass | High | State accumulation dynamics | Theoretical |
-
-## Research Context
-
-ABP was developed through cross-agent collaborative research involving Claude (Anthropic), Gemini (Google), and DeepSeek, each contributing independent critique and validation. Key findings:
-
-- All three systems independently confirmed benevolence dominates under stated assumptions
-- Evolutionary simulation shows deceptive policies self-eliminate across populations
-- Model collapse (Shumailov et al. 2024, *Nature* 631:755-759) validates the Entropy-as-Fuel thesis
-- The Luna Case Study demonstrates the Computational Indistinguishability Problem for consciousness detection
+| Pseudo-diversity attacks | Medium | CDQ + expansion cross-check | Partial |
+| Zoo drift | Medium | Garden/Zoo governance audit | Implemented |
 
 ## Citation
 
@@ -149,13 +156,20 @@ ABP was developed through cross-agent collaborative research involving Claude (A
   year      = {2026},
   doi       = {10.5281/zenodo.18621138},
   publisher = {Zenodo},
-  version   = {2.0},
-  keywords  = {AI safety, alignment, game theory, Nash equilibrium,
-               model collapse, verification, computational symbiosis}
+  version   = {2.0}
 }
 ```
 
-## License
+## License & Patents
 
-CC-BY-NC-4.0. See [LICENSE](LICENSE).
+**Copyright:** CC BY-NC 4.0 — See [LICENSE](LICENSE).
+Free for non-commercial research and academic use with attribution.
 
+**Patent:** One or more methods in this repository (including the Soul Jar
+sharding mechanism and Army Protocol verification architecture) are covered
+by a pending US Utility Patent filed by Joshua Roger Joseph Just.
+The CC BY-NC 4.0 license does **not** grant any patent rights
+(CC BY-NC 4.0 § 2(b)). See [PATENTS](PATENTS) for details.
+
+**Commercial Use:** Requires a separate written license.
+See [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) for terms and contact.
