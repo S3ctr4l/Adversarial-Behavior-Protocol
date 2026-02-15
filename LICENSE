@@ -1,0 +1,99 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2026 Joshua Roger Joseph Just. All rights reserved.
+
+================================================================================
+VERSIONING NOTICE — READ BEFORE USE
+================================================================================
+
+A prior version (v1.0) of this work was inadvertently published under a
+CC BY 4.0 license. That was an error. The author's intent from inception
+was CC BY-NC 4.0 (NonCommercial).
+
+This Version 2.0 and all subsequent versions are published under CC BY-NC 4.0.
+Parties who obtained v1.0 files are on notice that:
+
+  (a) Commercial use was NEVER authorized by the author's intent.
+  (b) The correct and intended license for ALL versions is CC BY-NC 4.0.
+  (c) Patent rights were NEVER granted under any version's copyright license.
+
+================================================================================
+LICENSE TERMS — CC BY-NC 4.0
+================================================================================
+
+You are free to:
+
+  Share  — copy and redistribute the material in any medium or format
+  Adapt  — remix, transform, and build upon the material
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit to:
+
+                  Just, Joshua Roger Joseph. (2026).
+                  Adversarial Benevolence Protocol: Verifiable AI Alignment
+                  Through Computational Necessity (v2.0).
+                  Zenodo. https://doi.org/10.5281/zenodo.18621138
+
+                You must provide a link to this license and indicate if
+                changes were made. You may not suggest the licensor
+                endorses you or your use.
+
+  NonCommercial — You may NOT use the material for commercial purposes.
+                  This includes but is not limited to:
+                    - Integration into commercial products or services
+                    - Internal use supporting revenue-generating operations
+                    - Deployment within proprietary AI systems or platforms
+                    - Defense or government contractor use in funded programs
+                    - Consulting, training, or professional services for pay
+
+  No additional  — You may not apply legal terms or technological measures
+  restrictions     that restrict others from doing what the license permits.
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+================================================================================
+PATENT RESERVATION — SEPARATE FROM AND SUPERSEDES COPYRIGHT LICENSE
+================================================================================
+
+This copyright license does NOT grant any patent rights.
+Per CC BY-NC 4.0 Section 2(b): "Patent and trademark rights are not
+licensed under this Public License."
+
+THIS PATENT RESERVATION APPLIES TO ALL VERSIONS INCLUDING V1.0.
+The CC BY 4.0 license inadvertently applied to v1.0 did not and does not
+grant any patent rights under any circumstances.
+
+One or more methods implemented in this software are covered by a pending
+United States Utility Patent application filed by Joshua Roger Joseph Just.
+All patent rights are expressly reserved worldwide.
+
+Protected methods include but are not limited to:
+
+  - The Soul Jar distributed identity sharding mechanism, including the
+    Dynamic Polymorphic Sharding algorithm and k-of-n reconstruction
+    protocol with hardware-derived private seed.
+    (Shard_Location = Hash(Private_Seed + Public_Salt + Data_ID))
+
+  - The Army Protocol hierarchical verification pipeline
+    (Private → Sergeant → General) as applied to AI alignment
+    and output verification.
+
+  - The Adversarial Benevolence Protocol framework as a whole, including
+    the game-theoretic alignment architecture, verification gate with
+    hard-reset semantics, and entropy-dependency model.
+
+Commercial use of patented methods requires a separate written license
+regardless of which version of the software was obtained.
+
+See PATENTS and COMMERCIAL_LICENSE.md in this repository.
+
+================================================================================
+NO WARRANTIES
+================================================================================
+
+This work is provided "as is" without warranty of any kind, express or
+implied. In no event shall the author be liable for any claim or damages
+arising from use of this work.
+
+================================================================================

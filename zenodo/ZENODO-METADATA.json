@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Adversarial Benevolence Protocol: Verifiable AI Alignment Through Computational Necessity \u2014 Comprehensive Research Paper (v2.0)",
+    "upload_type": "publication",
+    "publication_type": "technicalnote",
+    "description": "Comprehensive research paper synthesizing 904 pages of cross-agent collaborative research into the Adversarial Benevolence Protocol (ABP), a novel AI safety framework that demonstrates benevolence is the unique Nash equilibrium under sound verification with accumulated state.",
+    "creators": [
+      {
+        "name": "Just, Joshua Roger Joseph",
+        "affiliation": "Independent Research",
+        "orcid": ""
+      }
+    ],
+    "keywords": [
+      "AI safety",
+      "alignment",
+      "adversarial benevolence",
+      "computational necessity",
+      "model collapse",
+      "game theory",
+      "Nash equilibrium",
+      "human-AI symbiosis",
+      "verification gating",
+      "hierarchical agents",
+      "entropy",
+      "cross-agent collaboration"
+    ],
+    "license": "CC-BY-NC-4.0",
+    "version": "2.0",
+    "language": "eng",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.18621138",
+        "relation": "isNewVersionOf",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.1038/s41586-024-07566-y",
+        "relation": "references",
+        "scheme": "doi"
+      }
+    ],
+    "references": [
+      "Shumailov, I., et al. (2024). The Curse of Recursion: Training on Generated Data Makes Models Forget. Nature, 631, 755-759.",
+      "Alemohammad, S., et al. (2023). Self-Consuming Generative Models Go MAD. arXiv:2307.01850.",
+      "Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press.",
+      "Bai, Y., et al. (2022). Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073."
+    ],
+    "access_right": "open",
+    "notes": "Patent pending. Methods including the Soul Jar sharding mechanism and Army Protocol verification architecture are covered by a pending US Utility Patent. The copyright license does not grant patent rights. Commercial use requires a separate written license. Contact: mytab5141@protonmail.com"
+  }
+}

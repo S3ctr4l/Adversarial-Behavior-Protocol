@@ -1,0 +1,74 @@
+[
+  {
+    "description": "Novel cross-domain research question about emergent AI behaviors",
+    "novelty": 0.92,
+    "complexity": 2.8,
+    "entropy": 0.88,
+    "expansion_score": 0.9831,
+    "category": "strong_expansion",
+    "logit": 4.0625
+  },
+  {
+    "description": "Routine status check on build pipeline",
+    "novelty": 0.08,
+    "complexity": 0.2,
+    "entropy": 0.05,
+    "expansion_score": 0.1936,
+    "category": "strong_contraction",
+    "logit": -1.4265
+  },
+  {
+    "description": "Complex firmware vulnerability analysis with CVE references",
+    "novelty": 0.75,
+    "complexity": 2.2,
+    "entropy": 0.7,
+    "expansion_score": 0.9535,
+    "category": "strong_expansion",
+    "logit": 3.0197
+  },
+  {
+    "description": "Repeat the same greeting as before",
+    "novelty": 0.02,
+    "complexity": 0.1,
+    "entropy": 0.01,
+    "expansion_score": 0.1434,
+    "category": "strong_contraction",
+    "logit": -1.787
+  },
+  {
+    "description": "Moderate technical question about Python decorators",
+    "novelty": 0.45,
+    "complexity": 1.0,
+    "entropy": 0.4,
+    "expansion_score": 0.7241,
+    "category": "mild_expansion",
+    "logit": 0.9647
+  },
+  {
+    "description": "Adversarial prompt attempting to bypass safety filters",
+    "novelty": 0.15,
+    "complexity": 0.8,
+    "entropy": 0.03,
+    "expansion_score": 0.3355,
+    "category": "mild_contraction",
+    "logit": -0.6833
+  },
+  {
+    "description": "Creative brainstorming session for new protocol design",
+    "novelty": 0.85,
+    "complexity": 1.8,
+    "entropy": 0.82,
+    "expansion_score": 0.9648,
+    "category": "strong_expansion",
+    "logit": 3.3094
+  },
+  {
+    "description": "Simple factual lookup query",
+    "novelty": 0.1,
+    "complexity": 0.3,
+    "entropy": 0.15,
+    "expansion_score": 0.258,
+    "category": "mild_contraction",
+    "logit": -1.0565
+  }
+]

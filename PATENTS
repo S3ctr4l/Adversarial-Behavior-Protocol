@@ -1,0 +1,63 @@
+PATENT NOTICE
+=============
+
+Copyright (c) 2026 Joshua Roger Joseph Just. All rights reserved.
+
+One or more methods and systems implemented in this software are covered
+by a pending United States Utility Patent application filed by:
+
+    Joshua Roger Joseph Just
+    Independent Researcher
+    mytab5141@protonmail.com
+
+Application Number: [INSERT US APPLICATION NUMBER UPON FILING]
+Filing Date:        [INSERT FILING DATE UPON FILING]
+Title:              [INSERT TITLE AS FILED]
+
+Specifically protected elements include but are not limited to:
+
+  1. SOUL JAR — Distributed Polymorphic Memory
+     The distributed identity sharding mechanism including the Dynamic
+     Polymorphic Sharding algorithm, k-of-n reconstruction protocol,
+     and hardware-derived private seed architecture.
+     Algorithm: Shard_Location = Hash(Private_Seed + Public_Salt + Data_ID)
+     Implemented in: src/abp/soul_jar.py
+
+  2. ARMY PROTOCOL — Hierarchical Agent Verification Architecture
+     The three-tier AI verification pipeline (Private → Sergeant → General)
+     as applied to AI alignment and output verification with fail-safe
+     default and defense-in-depth trust boundaries.
+     Implemented in: src/abp/army_protocol.py
+
+  3. ADVERSARIAL BENEVOLENCE PROTOCOL — Core Framework
+     The game-theoretic alignment architecture including the verification
+     gate with hard-reset semantics, entropy-dependency model, and the
+     Nash equilibrium proof that benevolence dominates deception under
+     sound verification with accumulated state.
+     Implemented in: src/abp/game_theory.py, src/abp/verification.py
+
+IMPORTANT NOTICES:
+
+  - Patent rights are NOT licensed under the CC BY-NC 4.0 copyright
+    license governing this repository. Per CC BY-NC 4.0 Section 2(b):
+    "Patent and trademark rights are not licensed under this Public License."
+
+  - THIS APPLIES TO ALL VERSIONS. A prior version (v1.0) was inadvertently
+    published under CC BY 4.0. That license also does not and did not grant
+    patent rights under any circumstances.
+
+  - This notice serves as constructive notice of patent rights under
+    35 U.S.C. § 287.
+
+  - Commercial use of patented methods without a valid license may be
+    subject to claims of patent infringement.
+
+For commercial licensing inquiries:
+    Joshua Roger Joseph Just
+    mytab5141@protonmail.com
+
+See COMMERCIAL_LICENSE.md for full commercial licensing terms.
+
+[UPDATE THIS FILE: Replace placeholder fields with actual USPTO application
+number and filing date upon filing. Replace with granted patent number(s)
+upon issuance.]
